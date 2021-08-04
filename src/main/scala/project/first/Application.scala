@@ -16,5 +16,13 @@ object Application {
 
     // constant
     val constant = 2
+
+    // Function
+    def add(a: Int, b: Int): Int = a + b
+    println(add(2,3))
+
+    // Function object
+    val addFunction = (a: Int, b: Int) => a + b
+    println(addFunction(5,4))
   }
 }
